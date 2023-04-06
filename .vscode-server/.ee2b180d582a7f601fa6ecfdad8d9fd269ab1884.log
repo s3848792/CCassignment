@@ -1,0 +1,204 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:43811 (IPv4)
+Extension host agent listening on 43811
+
+[01:48:04] 
+
+
+
+
+[01:48:04] Extension host agent started.
+[01:48:04] [127.0.0.1][1d081a12][ManagementConnection] New connection established.
+[01:48:04] [127.0.0.1][17b736e9][ExtensionHostConnection] New connection established.
+[01:48:04] [127.0.0.1][17b736e9][ExtensionHostConnection] <32208> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[01:48:10] Getting Manifest... ms-python.vscode-pylance
+[01:48:10] Installing extension: ms-python.vscode-pylance
+[01:48:11] Getting Manifest... ms-python.python
+[01:48:13] Extension signature verification: ms-python.vscode-pylance. Verification status: Verified.
+[01:48:19] Extracted extension to /home/ubuntu/.vscode-server/extensions/.7592a390-66df-4e38-bda8-da5a57421434: ms-python.vscode-pylance
+[01:48:19] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40
+[01:48:19] Extracting extension completed. ms-python.vscode-pylance
+[01:48:19] Extension installed successfully: ms-python.vscode-pylance
+[01:48:19] Marked extension as uninstalled ms-python.vscode-pylance-2023.3.30
+[01:48:21] [127.0.0.1][1d081a12][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:48:21] [127.0.0.1][17b736e9][ExtensionHostConnection] <32208> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[01:48:21] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[01:48:21] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[01:48:22] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[01:48:22] Cancelling previous shutdown timeout
+[01:48:23] [127.0.0.1][34992839][ManagementConnection] New connection established.
+[01:48:23] [127.0.0.1][f6e60691][ExtensionHostConnection] New connection established.
+[01:48:23] [127.0.0.1][f6e60691][ExtensionHostConnection] <32385> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[01:53:22] New EH opened, aborting shutdown
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[02:28:18] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[02:28:18] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:05:25] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:05:25] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+[03:06:06] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+[03:06:08] [127.0.0.1][34992839][ManagementConnection] The client has reconnected.
+[03:06:11] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+[03:06:36] [127.0.0.1][34992839][ManagementConnection] The client has reconnected.
+[03:08:41] [127.0.0.1][34992839][ManagementConnection] The client has reconnected.
+[03:09:06] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:40:49] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:40:49] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:48:37] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[03:48:37] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+[04:24:01] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+[04:24:03] [127.0.0.1][34992839][ManagementConnection] The client has reconnected.
+[04:24:04] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+[04:36:40] [127.0.0.1][34992839][ManagementConnection] The client has reconnected.
+[04:36:45] [127.0.0.1][f6e60691][ExtensionHostConnection] The client has reconnected.
+[05:20:14] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[05:22:28] No ptyHost heartbeat after 6 seconds

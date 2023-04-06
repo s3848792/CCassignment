@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if session['username'] %}
+<h1>Welcome {{ session['username'] }}!</h1>
+<div class="container">
+    {% for song in music %}
+<div class="row align-items-start">
+    <div class="col">
+        <p>{{ song['User'] }}</p>
+    </div>
+    <div class="col">
+        <p>{{ song['Song'] }}</p>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}
+
+

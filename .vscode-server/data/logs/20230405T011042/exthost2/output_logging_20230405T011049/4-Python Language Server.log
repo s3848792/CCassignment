@@ -1,0 +1,202 @@
+[Info  - 1:13:15 AM] (1504) Pylance language server 2023.3.40 (pyright 04471971) starting
+[Info  - 1:13:15 AM] (1504) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 1:13:15 AM] (1504) Starting service instance "var"
+[Info  - 1:13:15 AM] (1504) Auto-indent enabled
+[Info  - 1:13:16 AM] (1504) No configuration file found.
+[Info  - 1:13:16 AM] (1504) No pyproject.toml file found.
+[Info  - 1:13:16 AM] (1504) Setting pythonPath for service "var": "/usr/bin/python3"
+[Warn  - 1:13:16 AM] (1504) stubPath /var/typings is not a valid directory.
+[Info  - 1:13:16 AM] (1504) Assuming Python version 3.8
+[Info  - 1:13:16 AM] (1504) Assuming Python platform Linux
+[Info  - 1:13:16 AM] (1504) Searching for source files
+[Error - 1:13:26 AM] (1504) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 1:14:08 AM] (1504) Auto-excluding /var/www/html/Assignment1/env
+[Info  - 1:14:09 AM] (1504) Found 7 source files
+[Info  - 1:14:09 AM] (1504) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 1:14:09 AM] (1504) Background analysis(1) started
+[Info  - 1:14:11 AM] (1504) Indexer background runner(2) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist (index)
+[Info  - 1:14:11 AM] (1504) Indexing(2) started
+[Info  - 1:14:13 AM] (1504) [BG(1)] Long operation: analyzing: /var/www/html/Assignment1/Assignment1.py (3227ms)
+[Info  - 1:14:14 AM] (1504) [IDX(2)] Long operation: scan packages /var (2866ms)
+[Info  - 1:14:14 AM] (1504) scanned(2) 94 files over 1 exec env
+[Info  - 1:14:19 AM] (1504) [IDX(2)] Long operation: index execution environment /var (5083ms)
+[Info  - 1:14:19 AM] (1504) [IDX(2)] Long operation: index packages /var (5145ms)
+[Info  - 1:14:19 AM] (1504) indexed(2) 47 files over 1 exec env
+[Info  - 1:14:19 AM] (1504) Indexing finished(2).
+[Info  - 1:14:21 AM] (1504) [BG(1)] Long operation: getSemanticTokens full at /var/www/html/Assignment1/Assignment1.py (7340ms)
+[Info  - 1:53:23 AM] (1504) [FG] Long operation: parsing: /home/ubuntu/.local/lib/python3.8/site-packages/botocore/regions.py (2280729ms)
+[Info  - 1:53:25 AM] (1504) [FG] Long operation: binding: /home/ubuntu/.local/lib/python3.8/site-packages/botocore/regions.py (4769ms)
+[Info  - 1:54:17 AM] (1504) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1680657273634 at /var/www/html/Assignment1/Assignment1.py (44814ms)
+[Info  - 1:54:24 AM] (1504) [BG(1)] Long operation: parsing: /var/www/html/Assignment1/Assignment1.py (2388ms)
+[Info  - 1:54:36 AM] (1504) [BG(1)] Long operation: parsing: /var/www/html/Assignment1/Assignment1.py (2237ms)
+[Info  - 2:15:23 AM] (1504) [BG(1)] Long operation: checking: /var/www/html/Assignment1/Assignment1.py (1243038ms)
+[Info  - 2:15:27 AM] (1504) [BG(1)] Long operation: analyzing: /var/www/html/Assignment1/Assignment1.py (1247655ms)
+[Info  - 2:16:02 AM] (1504) [BG(1)] Long operation: indexing: /var/www/html/Assignment1/Assignment1.py (6481ms)
+[Info  - 5:36:50 AM] Connection to server got closed. Server will restart.
+[Info  - 5:37:07 AM] (2818) Pylance language server 2023.3.40 (pyright 04471971) starting
+[Info  - 5:37:07 AM] (2818) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 5:37:08 AM] (2818) Starting service instance "var"
+[Info  - 5:37:09 AM] (2818) Auto-indent enabled
+[Info  - 5:37:11 AM] (2818) No configuration file found.
+[Info  - 5:37:11 AM] (2818) No pyproject.toml file found.
+[Info  - 5:37:11 AM] (2818) Setting pythonPath for service "var": "/usr/bin/python3"
+[Warn  - 5:37:11 AM] (2818) stubPath /var/typings is not a valid directory.
+[Info  - 5:37:14 AM] (2818) Assuming Python version 3.8
+[Info  - 5:37:14 AM] (2818) Assuming Python platform Linux
+[Info  - 5:37:24 AM] (2818) Searching for source files
+[Error - 5:37:34 AM] (2818) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 5:41:27 AM] (2818) Auto-excluding /var/www/html/Assignment1/env
+[Info  - 5:41:27 AM] (2818) Found 7 source files
+[Info  - 5:41:28 AM] (2818) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 5:41:28 AM] (2818) Background analysis(1) started
+[Info  - 5:41:33 AM] (2818) [BG(1)] Long operation: parsing: /var/www/html/Assignment1/Assignment1.py (5457ms)
+[Info  - 5:41:39 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/builtins.pyi (5808ms)
+[Info  - 5:41:41 AM] (2818) [BG(1)] Long operation: binding: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/builtins.pyi (2039ms)
+[Info  - 5:41:43 AM] (2818) Indexer background runner(2) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist (index)
+[Info  - 5:41:44 AM] (2818) Indexing(2) started
+[Info  - 5:41:48 AM] (2818) [IDX(2)] Long operation: read stdlib indices (3852ms)
+[Info  - 5:41:50 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/_typeshed/__init__.pyi (2482ms)
+[Info  - 5:41:56 AM] (2818) [BG(1)] Long operation: parsing: /usr/lib/python3.8/datetime.py (3136ms)
+[Info  - 5:42:19 AM] (2818) [IDX(2)] Long operation: scan packages /var (34773ms)
+[Info  - 5:42:19 AM] (2818) scanned(2) 94 files over 1 exec env
+[Info  - 5:42:23 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3.8/xml/__init__.py (2046ms)
+[Info  - 5:42:27 AM] (2818) [IDX(2)] Long operation: parsing: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/builtins.pyi (4421ms)
+[Info  - 5:42:31 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.local/lib/python3.8/site-packages/botocore/utils.py (2438ms)
+[Info  - 5:42:32 AM] (2818) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/click/core.py (3569ms)
+[Info  - 5:42:36 AM] (2818) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/click/__init__.py (7901ms)
+[Info  - 5:42:42 AM] (2818) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/flask/__init__.py (4491ms)
+[Info  - 5:42:58 AM] (2818) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/dbus/__init__.py (3775ms)
+[Info  - 5:43:02 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/hyperlink/_url.py (3085ms)
+[Info  - 5:43:02 AM] (2818) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/hyperlink/__init__.py (3285ms)
+[Info  - 5:43:10 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.local/lib/python3.8/site-packages/botocore/httpsession.py (3047ms)
+[Info  - 5:43:15 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/olefile/olefile.py (9946ms)
+[Info  - 5:43:16 AM] (2818) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/olefile/__init__.py (11156ms)
+[Info  - 5:43:18 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/urllib/request.pyi (4862ms)
+[Info  - 5:43:18 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/pexpect/__init__.py (2372ms)
+[Info  - 5:43:23 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/pexpect/pty_spawn.py (2812ms)
+[Info  - 5:43:23 AM] (2818) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/pexpect/__init__.py (4583ms)
+[Info  - 5:43:34 AM] (2818) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/rsa/key.py (4080ms)
+[Info  - 5:43:35 AM] (2818) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/rsa/__init__.py (4883ms)
+[Info  - 5:43:38 AM] (2818) [IDX(2)] Long operation: index execution environment /var (77563ms)
+[Info  - 5:43:39 AM] (2818) [IDX(2)] Long operation: index packages /var (78165ms)
+[Info  - 5:43:39 AM] (2818) indexed(2) 47 files over 1 exec env
+[Info  - 5:43:41 AM] (2818) Indexing finished(2).
+[Info  - 5:44:06 AM] (2818) [BG(1)] Long operation: parsing: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist/typeshed-fallback/stdlib/sys.pyi (2882ms)
+[Info  - 5:44:15 AM] (2818) [BG(1)] Long operation: checking: /var/www/html/Assignment1/Assignment1.py (153639ms)
+[Info  - 5:44:15 AM] (2818) [BG(1)] Long operation: analyzing: /var/www/html/Assignment1/Assignment1.py (167343ms)
+[Info  - 10:13:37 PM] Connection to server got closed. Server will restart.
+[Info  - 10:13:52 PM] (4326) Pylance language server 2023.3.40 (pyright 04471971) starting
+[Info  - 10:13:52 PM] (4326) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 10:13:52 PM] (4326) Starting service instance "var"
+[Info  - 10:13:53 PM] (4326) Auto-indent enabled
+[Info  - 10:13:54 PM] (4326) No configuration file found.
+[Info  - 10:13:54 PM] (4326) No pyproject.toml file found.
+[Info  - 10:13:54 PM] (4326) Setting pythonPath for service "var": "/usr/bin/python3"
+[Warn  - 10:13:55 PM] (4326) stubPath /var/typings is not a valid directory.
+[Info  - 10:13:57 PM] (4326) Assuming Python version 3.8
+[Info  - 10:13:57 PM] (4326) Assuming Python platform Linux
+[Info  - 10:14:06 PM] (4326) Searching for source files
+[Error - 10:14:16 PM] (4326) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 10:27:47 PM] (4326) Auto-excluding /var/www/html/Assignment1/env
+[Info  - 10:27:48 PM] (4326) Found 7 source files
+[Info  - 10:27:49 PM] (4326) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist
+[Info  - 10:27:49 PM] (4326) Background analysis(1) started
+[Info  - 10:27:51 PM] (4326) Indexer background runner(2) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40/dist (index)
+[Info  - 10:27:51 PM] (4326) Indexing(2) started
+[Info  - 10:27:55 PM] (4326) [BG(1)] Long operation: parsing: /var/www/html/Assignment1/Assignment1.py (5330ms)
+[Info  - 10:28:14 PM] (4326) [BG(1)] Long operation: checking: /var/www/html/Assignment1/Assignment1.py (18120ms)
+[Info  - 10:28:18 PM] (4326) [BG(1)] Long operation: analyzing: /var/www/html/Assignment1/Assignment1.py (24059ms)
+[Info  - 10:28:29 PM] (4326) [BG(1)] Long operation: parsing: /var/www/html/Assignment1/Task1-3.py (2392ms)
+[Info  - 10:28:47 PM] (4326) [IDX(2)] Long operation: scan packages /var (55512ms)
+[Info  - 10:28:48 PM] (4326) scanned(2) 94 files over 1 exec env
+[Info  - 10:28:53 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3.8/xml/__init__.py (3250ms)
+[Info  - 10:28:57 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/click/core.py (3091ms)
+[Info  - 10:28:59 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/click/core.py (2000ms)
+[Info  - 10:29:03 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/click/decorators.py (3836ms)
+[Info  - 10:29:28 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/click/exceptions.py (24749ms)
+[Info  - 10:29:32 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/click/__init__.py (37659ms)
+[Info  - 10:29:35 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/flask/__init__.py (2477ms)
+[Info  - 10:29:50 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/importlib_metadata/__init__.py (9555ms)
+[Info  - 10:29:58 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/importlib_metadata/__init__.py (7680ms)
+[Info  - 10:30:03 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/importlib_metadata/__init__.py (5121ms)
+[Info  - 10:30:07 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/itsdangerous/encoding.py (2744ms)
+[Info  - 10:30:09 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/itsdangerous/serializer.py (2044ms)
+[Info  - 10:30:19 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/itsdangerous/signer.py (10033ms)
+[Info  - 10:30:28 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/itsdangerous/timed.py (4740ms)
+[Info  - 10:30:32 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/itsdangerous/url_safe.py (2750ms)
+[Info  - 10:30:32 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/itsdangerous/__init__.py (28443ms)
+[Info  - 10:30:35 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/jinja2/__init__.py (2046ms)
+[Info  - 10:31:01 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/jinja2/bccache.py (22449ms)
+[Info  - 10:31:09 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/jinja2/environment.py (5302ms)
+[Info  - 10:31:13 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/jinja2/exceptions.py (4130ms)
+[Info  - 10:31:25 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/jinja2/utils.py (9259ms)
+[Info  - 10:31:27 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/jinja2/__init__.py (50669ms)
+[Info  - 10:31:28 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/markupsafe/__init__.py (2208ms)
+[Info  - 10:31:30 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/markupsafe/__init__.py (2365ms)
+[Info  - 10:31:55 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/werkzeug/serving.py (23420ms)
+[Info  - 10:31:59 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/werkzeug/serving.py (3009ms)
+[Info  - 10:32:13 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/werkzeug/test.py (14214ms)
+[Info  - 10:32:17 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/werkzeug/test.py (3260ms)
+[Info  - 10:32:28 PM] (4326) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.8/dist-packages/werkzeug/wrappers/response.py (9223ms)
+[Info  - 10:32:30 PM] (4326) [IDX(2)] Long operation: binding: /usr/local/lib/python3.8/dist-packages/werkzeug/wrappers/response.py (2108ms)
+[Info  - 10:32:31 PM] (4326) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.8/dist-packages/werkzeug/__init__.py (59563ms)
+[Info  - 10:32:38 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/apt/__init__.py (3946ms)
+[Info  - 10:33:14 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/apt/package.py (35439ms)
+[Info  - 10:33:18 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/apt/package.py (4363ms)
+[Info  - 10:33:26 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/apt/cache.py (5599ms)
+[Info  - 10:33:33 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/apt/cdrom.py (3990ms)
+[Info  - 10:33:36 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/apt/__init__.py (54600ms)
+[Info  - 10:33:49 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/attr/__init__.pyi (13041ms)
+[Info  - 10:34:25 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/attr/__init__.pyi (28578ms)
+[Info  - 10:34:50 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/attr/__init__.pyi (6309ms)
+[Info  - 10:36:02 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/automat/__init__.py (11258ms)
+[Info  - 10:39:23 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/automat/_methodical.py (264491ms)
+[Info  - 10:39:44 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/automat/_core.py (10351ms)
+[Info  - 10:40:10 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/automat/_core.py (3170ms)
+[Info  - 10:40:35 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/automat/__init__.py (290758ms)
+[Info  - 10:40:41 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/blinker/__init__.py (17164ms)
+[Info  - 10:41:21 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/blinker/__init__.py (14290ms)
+[Info  - 10:42:35 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/blinker/base.py (64189ms)
+[Info  - 10:42:40 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/blinker/base.py (26679ms)
+[Info  - 10:43:10 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/blinker/__init__.py (120738ms)
+[Info  - 10:44:43 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/constantly/__init__.py (5710ms)
+[Info  - 11:00:31 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/constantly/__init__.py (21770ms)
+[Info  - 11:01:43 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/constantly/_constants.py (71929ms)
+[Info  - 11:03:09 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/constantly/_constants.py (2449ms)
+[Info  - 11:03:17 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/constantly/__init__.py (97288ms)
+[Info  - 11:03:49 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/cryptography/__init__.py (79678ms)
+[Info  - 11:04:24 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/cryptography/__about__.py (41677ms)
+[Info  - 11:04:54 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/cryptography/__about__.py (90169ms)
+[Info  - 11:05:47 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/cryptography/__init__.py (187826ms)
+[Info  - 11:06:29 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/dbus/__init__.py (222855ms)
+[Info  - 11:06:36 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/dbus/__init__.py (2400ms)
+[Info  - 11:07:19 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/dbus/exceptions.py (89179ms)
+[Info  - 11:08:15 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/dbus/exceptions.py (7929ms)
+[Info  - 11:08:23 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/dbus/_dbus.py (387893ms)
+[Info  - 11:08:46 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/dbus/_dbus.py (5300ms)
+[Info  - 11:09:47 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/dbus/proxies.py (205126ms)
+[Info  - 11:10:35 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/dbus/proxies.py (3240ms)
+[Info  - 11:11:11 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/dbus/__init__.py (732127ms)
+[Info  - 11:12:44 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/hyperlink/__init__.py (33369ms)
+[Info  - 11:42:14 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/hyperlink/_url.py (1402489ms)
+[Info  - 11:43:41 PM] (4326) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/hyperlink/_url.py (344344ms)
+[Info  - 11:44:50 PM] (4326) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/hyperlink/__init__.py (1803625ms)
+[Info  - 11:55:39 PM] (4326) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/incremental/__init__.py (545920ms)

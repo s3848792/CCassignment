@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if session['username'] %}
+<div class="container" style="display: flex"></div>
+    {% for song in music %}
+    <div class="row">
+        <p>{{ song['title'] }}</p>
+        <p>{{ song['artist'] }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endif %}
+
+{% endblock %}
+
+

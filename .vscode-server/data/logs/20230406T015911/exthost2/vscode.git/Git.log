@@ -1,0 +1,22 @@
+2023-04-06 01:59:22.907 [info] Log level: Info
+2023-04-06 01:59:22.907 [info] Validating found git in: "git"
+2023-04-06 01:59:22.907 [info] Using git "2.25.1" from "git"
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [81ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-04-06 01:59:22.907 [info] Open repository: /home/ubuntu
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-06 01:59:22.907 [info] > git config --get commit.template [9ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [13ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-06 01:59:22.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [12ms]
+2023-04-06 01:59:22.907 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-06 01:59:22.935 [info] > git rev-parse --show-toplevel [7ms]
+2023-04-06 01:59:22.936 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-06 01:59:22.936 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-06 01:59:22.936 [info] > git rev-parse --show-toplevel [26ms]
+2023-04-06 01:59:23.458 [info] > git show --textconv :Assignment1/Assignment1.wsgi [48ms]
+2023-04-06 01:59:23.468 [info] > git ls-files --stage -- /home/ubuntu/Assignment1/Assignment1.wsgi [41ms]
+2023-04-06 01:59:23.762 [info] > git check-ignore -v -z --stdin [48ms]
+2023-04-06 01:59:25.563 [info] > git status -z -uall [2852ms] (cancelled)

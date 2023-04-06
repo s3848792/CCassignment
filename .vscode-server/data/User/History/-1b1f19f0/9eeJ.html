@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Login {% endblock %}</h1>
+
+<h2>Last 10 visits</h2>
+{% for time in times %}
+  <p>{{ time }}</p>
+{% endfor %}
+
+<form>
+  <input type="button" href='/login';" value="w3docs" />
+</form>
+{% endblock %}

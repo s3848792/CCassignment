@@ -1,0 +1,11 @@
+2023-04-06 00:41:30.798 [info] 
+
+
+
+
+2023-04-06 00:41:30.856 [info] Extension host agent started.
+2023-04-06 00:41:31.235 [info] [127.0.0.1][678f9004][ManagementConnection] New connection established.
+2023-04-06 00:41:31.274 [info] [127.0.0.1][e1fe3e9a][ExtensionHostConnection] New connection established.
+2023-04-06 00:41:31.278 [info] [127.0.0.1][e1fe3e9a][ExtensionHostConnection] <1205> Launched Extension Host Process.
+2023-04-06 00:42:56.273 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /var)
+2023-04-06 00:46:15.922 [warning] No ptyHost heartbeat after 6 seconds

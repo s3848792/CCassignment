@@ -1,0 +1,21 @@
+2023-04-06 00:48:57.886 [info] Extension host with pid 1134 started
+2023-04-06 00:48:57.895 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock'
+2023-04-06 00:48:57.923 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-04-06 00:48:57.974 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': The pid 1205 appears to be gone.
+2023-04-06 00:48:57.974 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Deleting a stale lock.
+2023-04-06 00:48:58.183 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-06 00:48:58.184 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 00:48:58.184 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 00:48:59.796 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-06 00:48:59.846 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Lock acquired.
+2023-04-06 00:49:01.218 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-06 00:49:01.320 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-06 00:49:01.321 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-06 00:49:01.929 [info] Eager extensions activated
+2023-04-06 00:49:01.929 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 00:49:01.932 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 00:49:02.144 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 00:50:13.289 [error] [ms-python.python] provider FAILED
+2023-04-06 00:50:13.292 [error] Error: DisposableStore is missing...
+	at _.l (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:101:52519)
+	at _.resolveCompletionItem (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:101:52377)

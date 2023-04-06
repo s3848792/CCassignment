@@ -1,0 +1,19 @@
+2023-04-06 01:01:04.445 [info] 
+
+
+
+
+2023-04-06 01:01:04.495 [info] Extension host agent started.
+2023-04-06 01:01:04.862 [info] [127.0.0.1][d41a5947][ManagementConnection] New connection established.
+2023-04-06 01:01:04.909 [info] [127.0.0.1][07475b93][ExtensionHostConnection] New connection established.
+2023-04-06 01:01:04.915 [info] [127.0.0.1][07475b93][ExtensionHostConnection] <1160> Launched Extension Host Process.
+2023-04-06 01:02:36.738 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /var)
+2023-04-06 01:03:47.657 [error] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-04-06 01:03:47.661 [error] Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-04-06 01:04:17.931 [info] [127.0.0.1][d41a5947][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-06 01:04:18.041 [info] [127.0.0.1][07475b93][ExtensionHostConnection] <1160> Extension Host Process exited with code: 0, signal: null.
+2023-04-06 01:04:18.041 [info] Cancelling previous shutdown timeout
+2023-04-06 01:04:18.041 [info] Last EH closed, waiting before shutting down
+2023-04-06 01:09:18.043 [info] Last EH closed, shutting down

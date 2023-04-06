@@ -1,0 +1,15 @@
+2023-04-05 01:10:45.865 [info] Log level: Info
+2023-04-05 01:10:45.865 [info] Validating found git in: "git"
+2023-04-05 01:10:45.865 [info] Using git "2.25.1" from "git"
+2023-04-05 01:10:45.865 [info] > git rev-parse --show-toplevel [61ms]
+2023-04-05 01:10:45.865 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2023-04-05 01:10:45.865 [info] Open repository: /home/ubuntu
+2023-04-05 01:10:45.865 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-05 01:10:45.865 [info] > git config --get commit.template [10ms]
+2023-04-05 01:10:45.865 [info] > git rev-parse --show-toplevel [12ms]
+2023-04-05 01:10:45.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2023-04-05 01:10:45.865 [info] > git rev-parse --show-toplevel [22ms]
+2023-04-05 01:10:45.865 [info] > git rev-parse --show-toplevel [17ms]
+2023-04-05 01:10:46.234 [info] > git rev-parse --show-toplevel [369ms]
+2023-04-05 01:10:46.282 [info] > git rev-parse --show-toplevel [34ms]
+2023-04-05 01:10:46.306 [info] > git rev-parse --show-toplevel [13ms]

@@ -1,0 +1,20 @@
+[Info  - 1:34:49 AM] (1241) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 1:34:49 AM] (1241) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 1:34:49 AM] (1241) Starting service instance "var"
+[Info  - 1:34:49 AM] (1241) Auto-indent enabled
+[Info  - 1:34:49 AM] (1241) Setting pythonPath for service "var": "/usr/bin/python3"
+[Warn  - 1:34:49 AM] (1241) stubPath /var/typings is not a valid directory.
+[Info  - 1:34:49 AM] (1241) Assuming Python version 3.8
+[Error - 1:35:00 AM] (1241) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 1:35:43 AM] (1241) Auto-excluding /var/www/html/Assignment1/env
+[Info  - 1:35:43 AM] (1241) Found 7 source files
+[Info  - 1:35:43 AM] (1241) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 1:35:43 AM] (1241) Background analysis(1) started
+[Info  - 1:35:45 AM] (1241) Indexer background runner(2) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 1:35:45 AM] (1241) Indexing(2) started

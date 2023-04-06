@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Home {% endblock %}</h1>
+
+{% if session['username'] %}
+    <h1>Welcome {{ session['username'] }}!</h1>
+{% else %}
+    <h2>Welcome! Login Here!<a class="btn btn-primary" href="{{ url_for('login') }}" role="button">Login</a></h1>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,21 @@
+2023-04-05 01:10:49.314 [info] Extension host with pid 1422 started
+2023-04-05 01:10:49.327 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock'
+2023-04-05 01:10:49.354 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-04-05 01:10:49.381 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': The pid 1319 appears to be gone.
+2023-04-05 01:10:49.381 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Deleting a stale lock.
+2023-04-05 01:10:49.446 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Lock acquired.
+2023-04-05 01:10:49.580 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-05 01:10:49.917 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-05 01:10:49.971 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-05 01:10:49.972 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-05 01:10:50.531 [info] Eager extensions activated
+2023-04-05 01:10:50.533 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-05 01:10:50.534 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-05 01:13:10.976 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-05 01:13:10.985 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-05 01:13:12.846 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-05 01:13:13.166 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-05 02:18:13.219 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2023-04-05 02:58:17.143 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)

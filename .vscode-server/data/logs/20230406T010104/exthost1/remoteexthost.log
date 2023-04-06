@@ -1,0 +1,20 @@
+2023-04-06 01:01:06.251 [info] Extension host with pid 1160 started
+2023-04-06 01:01:06.265 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock'
+2023-04-06 01:01:06.286 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-04-06 01:01:06.318 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': The lock does not look stale, elapsed: 474940 ms, giving up.
+2023-04-06 01:01:06.349 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4-1/vscode.lock': Lock acquired.
+2023-04-06 01:01:06.484 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-06 01:01:07.112 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-06 01:01:07.191 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-06 01:01:07.191 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-06 01:01:07.816 [info] Eager extensions activated
+2023-04-06 01:01:07.816 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 01:01:07.819 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 01:01:16.424 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 01:01:16.425 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 01:01:18.915 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-06 01:01:19.356 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 01:03:27.957 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-04-06 01:04:17.925 [info] Extension host terminating: received terminate message from renderer
+2023-04-06 01:04:17.925 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-06 01:04:18.007 [info] Extension host with pid 1160 exiting with code 0

@@ -1,0 +1,14 @@
+Visual Studio Code (1.77.0, ssh-remote, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /var
+info 00:18:10.949: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 00:18:11.999: LSP Notebooks experiment is enabled
+warn 00:18:16.811: Failed to get activated env vars for /usr/bin/python3 in 2651ms
+info 00:18:16.999: Process Execution: > /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+error 00:18:17.186: Unable to determine site packages path for python /usr/bin/python3 (Unknown)
+info 00:18:17.208: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list

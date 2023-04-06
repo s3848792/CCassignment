@@ -1,0 +1,221 @@
+2023-04-05 01:10:42.300 [info] 
+
+
+
+
+2023-04-05 01:10:42.350 [info] Extension host agent started.
+2023-04-05 01:10:42.730 [info] [127.0.0.1][3a0bec7c][ManagementConnection] New connection established.
+2023-04-05 01:10:42.757 [info] [127.0.0.1][09758b8c][ExtensionHostConnection] New connection established.
+2023-04-05 01:10:42.761 [info] [127.0.0.1][09758b8c][ExtensionHostConnection] <1207> Launched Extension Host Process.
+2023-04-05 01:10:45.904 [info] [127.0.0.1][3a0bec7c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-05 01:10:46.478 [info] [127.0.0.1][09758b8c][ExtensionHostConnection] <1207> Extension Host Process exited with code: 0, signal: null.
+2023-04-05 01:10:46.479 [info] Cancelling previous shutdown timeout
+2023-04-05 01:10:46.479 [info] Last EH closed, waiting before shutting down
+2023-04-05 01:10:46.583 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateTitle (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:2630)
+    at Object.call (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-05 01:10:46.585 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateIcon (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:2680)
+    at Object.call (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-05 01:10:47.771 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-04-05 01:10:47.771 [info] Cancelling previous shutdown timeout
+2023-04-05 01:10:47.884 [info] [127.0.0.1][fbea90e3][ManagementConnection] New connection established.
+2023-04-05 01:10:47.942 [info] [127.0.0.1][2c062f9c][ExtensionHostConnection] New connection established.
+2023-04-05 01:10:47.950 [info] [127.0.0.1][2c062f9c][ExtensionHostConnection] <1422> Launched Extension Host Process.
+2023-04-05 01:10:51.416 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateTitle (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:2630)
+    at Object.call (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-05 01:10:51.417 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateIcon (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:28:2680)
+    at Object.call (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/ubuntu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-05 01:12:09.693 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /var)
+2023-04-05 01:21:14.087 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 01:53:03.005 [info] New EH opened, aborting shutdown
+2023-04-05 01:53:03.726 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 01:57:00.627 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 01:57:33.331 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 01:59:49.297 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:02:53.938 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:09:23.597 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:09:50.956 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:13:21.435 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:14:44.065 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:17:51.528 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:19:38.557 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:20:54.827 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:24:24.457 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:30:48.895 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:30:59.821 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:31:38.581 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:32:56.876 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:33:10.316 [error] No ptyHost heartbeat after 12 seconds
+2023-04-05 02:33:21.351 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:40:21.219 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:42:44.862 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:44:39.072 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:46:53.487 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:50:28.474 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 02:57:11.025 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:05:13.621 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:06:25.772 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:10:42.694 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:13:49.880 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:19:47.495 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:25:51.282 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:26:26.667 [error] No ptyHost heartbeat after 12 seconds
+2023-04-05 03:43:19.146 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:44:14.387 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:45:11.458 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:49:04.597 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:50:32.996 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:51:05.748 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:52:32.839 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 03:59:49.322 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:00:25.215 [error] No ptyHost heartbeat after 12 seconds
+2023-04-05 04:05:14.998 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:35:49.622 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:36:40.584 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:38:22.567 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:40:51.240 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:42:06.252 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:43:09.673 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:54:00.187 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:55:39.115 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:56:56.637 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 04:59:05.173 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:01:03.830 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:02:11.843 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:03:47.115 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:12:17.579 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:17:13.104 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:18:48.171 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:24:54.014 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:28:13.424 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 05:35:04.410 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:29:52.317 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:33:22.326 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:34:06.616 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:39:43.687 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:43:18.600 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:46:23.749 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:46:53.389 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 06:48:17.366 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:07:04.505 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:10:58.542 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:11:43.766 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:16:07.715 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:20:34.231 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:26:50.153 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:32:03.127 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:38:35.089 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:43:44.704 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:48:36.329 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:51:24.376 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:54:08.292 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 07:59:13.276 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:10:14.465 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:31:06.830 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:41:06.970 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:45:35.715 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:47:12.103 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 08:51:09.358 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 09:02:19.132 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 09:31:51.484 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 10:04:04.266 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 10:40:38.815 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 11:13:18.508 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 11:46:22.920 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 12:20:52.847 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 12:56:30.371 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 13:29:44.938 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:13:36.463 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:30:22.491 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:31:44.579 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:32:41.608 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:32:53.711 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:33:51.567 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:34:15.175 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:36:04.154 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:36:57.423 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:38:41.499 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:39:37.046 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:39:53.479 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:40:35.019 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:41:05.059 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:41:42.558 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:43:31.576 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:44:42.615 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:48:56.640 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:53:37.187 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:56:32.311 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 22:58:37.339 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:03:15.474 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:05:02.372 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:08:13.829 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:08:35.198 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:09:01.698 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:12:05.644 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:12:43.323 [error] No ptyHost heartbeat after 12 seconds
+2023-04-05 23:19:30.366 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:20:37.564 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:24:09.282 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:26:06.019 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:26:42.208 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:29:53.514 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:31:23.072 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:32:15.791 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:34:26.489 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:36:07.247 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:37:24.725 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:39:07.564 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:40:26.802 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:48:32.513 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:50:12.151 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-05 23:56:12.114 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-06 00:00:07.461 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-06 00:03:30.098 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-06 00:09:18.115 [warning] No ptyHost heartbeat after 6 seconds

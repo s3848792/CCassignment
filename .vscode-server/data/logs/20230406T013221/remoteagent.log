@@ -1,0 +1,10 @@
+2023-04-06 01:32:21.694 [info] 
+
+
+
+
+2023-04-06 01:32:21.745 [info] Extension host agent started.
+2023-04-06 01:32:22.158 [info] [127.0.0.1][aefd677c][ExtensionHostConnection] New connection established.
+2023-04-06 01:32:22.159 [info] [127.0.0.1][8e15d5eb][ManagementConnection] New connection established.
+2023-04-06 01:32:22.163 [info] [127.0.0.1][aefd677c][ExtensionHostConnection] <1150> Launched Extension Host Process.
+2023-04-06 01:33:41.426 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /var)

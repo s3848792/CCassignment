@@ -1,0 +1,29 @@
+Experiment 'pythonPromptNewToolsExt' is active
+> conda info --json
+Python interpreter path: /usr/bin/python3
+[ERROR 2023-3-6 1:22:15.504]: readdir() failed for "/var/cache/ldconfig" (Error: EACCES: permission denied, scandir '/var/cache/ldconfig')
+[ERROR 2023-3-6 1:22:15.511]: readdir() failed for "/var/cache/pollinate" (Error: EACCES: permission denied, scandir '/var/cache/pollinate')
+[ERROR 2023-3-6 1:22:15.522]: readdir() failed for "/var/cache/private" (Error: EACCES: permission denied, scandir '/var/cache/private')
+[ERROR 2023-3-6 1:22:15.537]: readdir() failed for "/var/lib/amazon" (Error: EACCES: permission denied, scandir '/var/lib/amazon')
+[ERROR 2023-3-6 1:22:15.576]: readdir() failed for "/var/lib/polkit-1" (Error: EACCES: permission denied, scandir '/var/lib/polkit-1')
+[ERROR 2023-3-6 1:22:15.578]: readdir() failed for "/var/lib/private" (Error: EACCES: permission denied, scandir '/var/lib/private')
+[ERROR 2023-3-6 1:22:15.618]: readdir() failed for "/var/lib/udisks2" (Error: EACCES: permission denied, scandir '/var/lib/udisks2')
+> /bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:22:15.675]: readdir() failed for "/var/log/amazon" (Error: EACCES: permission denied, scandir '/var/log/amazon')
+[ERROR 2023-3-6 1:22:15.685]: readdir() failed for "/var/log/private" (Error: EACCES: permission denied, scandir '/var/log/private')
+> /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:22:15.697]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:22:15.714]: readdir() failed for "/var/spool/rsyslog" (Error: EACCES: permission denied, scandir '/var/spool/rsyslog')
+[ERROR 2023-3-6 1:22:15.722]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-ModemManager.service-HwkXgh" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-ModemManager.service-HwkXgh')
+[ERROR 2023-3-6 1:22:15.723]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-apache2.service-5DOi4g" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-apache2.service-5DOi4g')
+[ERROR 2023-3-6 1:22:15.723]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-hostnamed.service-CVYXSe" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-hostnamed.service-CVYXSe')
+[ERROR 2023-3-6 1:22:15.724]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-logind.service-B5lech" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-logind.service-B5lech')
+> /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:22:15.743]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-resolved.service-VoPHRi" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-resolved.service-VoPHRi')
+[ERROR 2023-3-6 1:22:15.744]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-timedated.service-QrlVch" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-timedated.service-QrlVch')
+[ERROR 2023-3-6 1:22:15.745]: readdir() failed for "/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-timesyncd.service-XvU5ig" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-d9a6906b290141bcbc404235a9946c4c-systemd-timesyncd.service-XvU5ig')
+[ERROR 2023-3-6 1:22:15.767]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.

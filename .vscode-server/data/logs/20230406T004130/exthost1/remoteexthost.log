@@ -1,0 +1,17 @@
+2023-04-06 00:41:33.157 [info] Extension host with pid 1205 started
+2023-04-06 00:41:33.163 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock'
+2023-04-06 00:41:33.180 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-04-06 00:41:33.198 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': The pid 1129 appears to be gone.
+2023-04-06 00:41:33.198 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Deleting a stale lock.
+2023-04-06 00:41:33.205 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8fc57fb3d755e1928d97266753ab81b4/vscode.lock': Lock acquired.
+2023-04-06 00:41:33.511 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-06 00:41:33.675 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-06 00:41:33.827 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-06 00:41:33.828 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-06 00:41:34.274 [info] Eager extensions activated
+2023-04-06 00:41:34.274 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 00:41:34.278 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 00:41:36.960 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 00:41:36.965 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-06 00:41:39.346 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-06 00:41:39.778 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

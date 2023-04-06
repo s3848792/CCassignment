@@ -1,0 +1,21 @@
+2023-04-06 00:18:04.734 [info] 
+
+
+
+
+2023-04-06 00:18:04.926 [info] Extension host agent started.
+2023-04-06 00:18:05.581 [info] [127.0.0.1][78275343][ManagementConnection] New connection established.
+2023-04-06 00:18:05.624 [info] [127.0.0.1][4bee6447][ExtensionHostConnection] New connection established.
+2023-04-06 00:18:05.662 [info] [127.0.0.1][4bee6447][ExtensionHostConnection] <1204> Launched Extension Host Process.
+2023-04-06 00:18:10.841 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-06 00:18:12.362 [info] Getting Manifest... ms-python.vscode-pylance
+2023-04-06 00:18:12.470 [info] Installing extension: ms-python.vscode-pylance
+2023-04-06 00:18:13.324 [info] Getting Manifest... ms-python.python
+2023-04-06 00:18:20.998 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-04-06 00:18:40.128 [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.d09a3764-c596-446e-9298-aa27bb704ed4: ms-python.vscode-pylance
+2023-04-06 00:18:40.196 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10
+2023-04-06 00:18:40.215 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-04-06 00:18:40.251 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-04-06 00:18:40.283 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.3.40
+2023-04-06 00:19:48.895 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /var)
+2023-04-06 00:21:15.178 [warning] No ptyHost heartbeat after 6 seconds

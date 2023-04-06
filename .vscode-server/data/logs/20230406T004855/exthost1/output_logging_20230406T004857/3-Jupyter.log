@@ -1,0 +1,19 @@
+Visual Studio Code (1.77.0, ssh-remote, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /var
+info 00:49:00.243: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTestcf'
+info 00:49:01.223: LSP Notebooks experiment is enabled
+warn 00:49:04.897: Kernels startUsingPythonInterpreter:'.jvsc74a57bd0e55666fbbf217aa3df372b978577f47b6009e2f78e2ec76a584f49cd54a1e62c./bin/python2./bin/python2.-m#ipykernel_launcher', startUsingPythonInterpreter:'.jvsc74a57bd0f92b2924b84ff19c1c3dc485f7644d4486f64738191026bf8e6de303969141b5./usr/bin/python2./usr/bin/python2.-m#ipykernel_launcher' found in cache but not discovered in current session startUsingPythonInterpreter:'.jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher', startUsingPythonInterpreter:'.jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher', startUsingPythonInterpreter:'.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher', startUsingPythonInterpreter:'.jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher'
+warn 00:49:04.899: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0e55666fbbf217aa3df372b978577f47b6009e2f78e2ec76a584f49cd54a1e62c./bin/python2./bin/python2.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+warn 00:49:04.900: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0e55666fbbf217aa3df372b978577f47b6009e2f78e2ec76a584f49cd54a1e62c./bin/python2./bin/python2.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+warn 00:49:04.901: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0f92b2924b84ff19c1c3dc485f7644d4486f64738191026bf8e6de303969141b5./usr/bin/python2./usr/bin/python2.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+warn 00:49:04.901: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0f92b2924b84ff19c1c3dc485f7644d4486f64738191026bf8e6de303969141b5./usr/bin/python2./usr/bin/python2.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+warn 00:49:04.947: Failed to get activated env vars for /usr/bin/python3 in 2056ms
+info 00:49:04.977: Process Execution: > /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+error 00:49:05.095: Unable to determine site packages path for python /usr/bin/python3 (Unknown)
+info 00:49:05.127: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list

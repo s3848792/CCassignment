@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Login {% endblock %}</h1>
+
+<!-- <h2>Last 10 visits</h2>
+{% for time in times %}
+  <p>{{ time }}</p>
+{% endfor %} -->
+<div class="container">
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+{% endblock %}

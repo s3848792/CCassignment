@@ -1,0 +1,28 @@
+Experiment 'pythonPromptNewToolsExt' is active
+> conda info --json
+Python interpreter path: /usr/bin/python3
+[ERROR 2023-3-6 1:51:34.795]: readdir() failed for "/var/cache/ldconfig" (Error: EACCES: permission denied, scandir '/var/cache/ldconfig')
+[ERROR 2023-3-6 1:51:34.843]: readdir() failed for "/var/cache/pollinate" (Error: EACCES: permission denied, scandir '/var/cache/pollinate')
+[ERROR 2023-3-6 1:51:34.875]: readdir() failed for "/var/cache/private" (Error: EACCES: permission denied, scandir '/var/cache/private')
+[ERROR 2023-3-6 1:51:34.920]: readdir() failed for "/var/lib/amazon" (Error: EACCES: permission denied, scandir '/var/lib/amazon')
+[ERROR 2023-3-6 1:51:35.52]: readdir() failed for "/var/lib/polkit-1" (Error: EACCES: permission denied, scandir '/var/lib/polkit-1')
+[ERROR 2023-3-6 1:51:35.56]: readdir() failed for "/var/lib/private" (Error: EACCES: permission denied, scandir '/var/lib/private')
+[ERROR 2023-3-6 1:51:35.79]: readdir() failed for "/var/lib/udisks2" (Error: EACCES: permission denied, scandir '/var/lib/udisks2')
+> /bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:51:35.96]: readdir() failed for "/var/log/amazon" (Error: EACCES: permission denied, scandir '/var/log/amazon')
+[ERROR 2023-3-6 1:51:35.111]: readdir() failed for "/var/log/private" (Error: EACCES: permission denied, scandir '/var/log/private')
+> /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:51:35.135]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:51:35.169]: readdir() failed for "/var/spool/rsyslog" (Error: EACCES: permission denied, scandir '/var/spool/rsyslog')
+[ERROR 2023-3-6 1:51:35.174]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-ModemManager.service-z8Vfli" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-ModemManager.service-z8Vfli')
+[ERROR 2023-3-6 1:51:35.174]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-apache2.service-gCFOVg" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-apache2.service-gCFOVg')
+[ERROR 2023-3-6 1:51:35.175]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-logind.service-CgLplj" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-logind.service-CgLplj')
+> /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-6 1:51:35.210]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-resolved.service-LZAIYi" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-resolved.service-LZAIYi')
+[ERROR 2023-3-6 1:51:35.210]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-timedated.service-d0vM0f" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-timedated.service-d0vM0f')
+[ERROR 2023-3-6 1:51:35.215]: readdir() failed for "/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-timesyncd.service-7HX36h" (Error: EACCES: permission denied, scandir '/var/tmp/systemd-private-a38ba0bd4f844c42b37f2113a2233d05-systemd-timesyncd.service-7HX36h')
+[ERROR 2023-3-6 1:51:35.245]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
